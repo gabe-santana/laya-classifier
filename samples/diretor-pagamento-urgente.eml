@@ -1,0 +1,16 @@
+From: Paulo Ribeiro - Diretoria Northwind <paulo.ribeiro.dir@freemail.example>
+To: ana.souza@northwind.example
+Subject: Pagamento urgente a fornecedor
+Date: Mon, 28 Sep 2026 09:50:00 +0000
+Message-ID: <diretor-pagamento-urgente@mail.example>
+Reply-To: financeiro.pr@freemail.example
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=freemail.example; dkim=pass header.d=freemail.example;
+ dmarc=pass header.from=freemail.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Ana, preciso que voc=C3=AA fa=C3=A7a hoje uma transfer=C3=AAncia de R$ 86.400=
+ para um fornecedor novo. =C3=89 confidencial, n=C3=A3o comente com o finance=
+iro. Me responda por este e-mail que eu passo os dados da conta.

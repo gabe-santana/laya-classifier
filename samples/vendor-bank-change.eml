@@ -1,0 +1,20 @@
+From: Fabrikam Accounts <accounts@fabrikam-billing.example>
+To: ana.souza@northwind.example
+Subject: Updated bank details for future payments
+Date: Mon, 28 Sep 2026 09:15:00 +0000
+Message-ID: <vendor-bank-change@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=fabrikam-billing.example; dkim=pass
+ header.d=fabrikam-billing.example; dmarc=pass
+ header.from=fabrikam-billing.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear customer,
+
+Our bank account has changed after an audit. Please update your records befor=
+e the next payment and send invoice FAB-2291 to the new account: IBAN XX00 00=
+00 1111 2222 3333. Payments to the old account will be returned.
+
+Fabrikam Accounts

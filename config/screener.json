@@ -1,0 +1,7 @@
+{
+  "protected_domains": ["northwind.example"],
+  "trusted_domains": ["fabrikam.example", "banco-aurora.example"],
+  "protected_names": ["northwind"],
+  "executive_names": ["maria chen", "paulo ribeiro"],
+  "shorteners": ["bit.ly", "tinyurl.com", "t.co", "is.gd", "rb.gy"]
+}

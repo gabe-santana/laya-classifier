@@ -1,0 +1,16 @@
+From: =?utf-8?q?F=C3=B3rum?= de Parceiros <forum@parceiros.example>
+To: ana.souza@northwind.example
+Subject: Resumo do encontro de parceiros
+Date: Mon, 28 Sep 2026 08:54:00 +0000
+Message-ID: <lista-parceiros-reply-to@mail.example>
+Reply-To: discussao@listas.example
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=parceiros.example; dkim=pass header.d=parceiros.example;
+ dmarc=pass header.from=parceiros.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Segue o resumo do encontro da semana passada: as apresenta=C3=A7=C3=B5es est=
+=C3=A3o em https://parceiros.example/encontro-setembro e a pr=C3=B3xima reuni=
+=C3=A3o =C3=A9 dia 20. Respostas v=C3=A3o para a lista de discuss=C3=A3o.

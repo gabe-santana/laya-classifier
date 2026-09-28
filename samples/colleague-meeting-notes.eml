@@ -1,0 +1,17 @@
+From: Rafael Lima <rafael.lima@northwind.example>
+To: ana.souza@northwind.example
+Subject: Notes from the roadmap sync
+Date: Mon, 28 Sep 2026 08:19:00 +0000
+Message-ID: <colleague-meeting-notes@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=northwind.example; dkim=pass header.d=northwind.example;
+ dmarc=pass header.from=northwind.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Ana, here are my notes from this morning. The main open item is the Q4 migrat=
+ion date; I suggested the second week of November. Can you add anything I mis=
+sed before Thursday?
+
+Rafael

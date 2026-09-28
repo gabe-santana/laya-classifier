@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>laya-classifier</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%235eead4%22/%3E%3Cpath d=%22M8 11l8 6 8-6M8 11h16v11H8z%22 fill=%22none%22 stroke=%22%23042f2e%22 stroke-width=%222.4%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <h1>laya-classifier</h1>
+        <p>Email security screener: Laya reads the text, code checks the evidence.</p>
+      </div>
+    </div>
+    <div class="actions">
+      <span id="status" class="chip">connecting…</span>
+      <button id="play" class="btn primary" type="button">Play inbox</button>
+      <button id="own" class="btn" type="button">Screen your own</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="inbox" aria-label="Inbox">
+      <div class="stats" id="stats"></div>
+      <ul id="list" class="list"></ul>
+      <p id="empty" class="empty">Press <b>Play inbox</b> to screen the 18 sample emails one by one.</p>
+    </section>
+
+    <section class="detail" id="detail" aria-live="polite">
+      <div class="placeholder">Select an email to see how it was judged.</div>
+    </section>
+  </main>
+
+  <dialog id="dialog">
+    <form method="dialog" id="own-form">
+      <h2>Screen your own email</h2>
+      <p class="hint">Paste a raw message (.eml source) or just write a subject and body.</p>
+      <label>From <input name="from" placeholder="Someone &lt;someone@example.com&gt;" /></label>
+      <label>Subject <input name="subject" /></label>
+      <label>Body or raw .eml <textarea name="body" rows="9" required></textarea></label>
+      <div class="dialog-actions">
+        <button class="btn" value="cancel" type="submit" formnovalidate>Cancel</button>
+        <button class="btn primary" value="screen" type="submit">Screen it</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

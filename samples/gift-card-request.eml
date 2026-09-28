@@ -1,0 +1,15 @@
+From: Rafael Lima <rafael.lima.northwind@freemail.example>
+To: ana.souza@northwind.example
+Subject: Quick favor?
+Date: Mon, 28 Sep 2026 09:29:00 +0000
+Message-ID: <gift-card-request@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=freemail.example; dkim=pass header.d=freemail.example;
+ dmarc=pass header.from=freemail.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Are you at your desk? I need you to buy six $100 gift cards for a client even=
+t today. Scratch the codes and send me photos, I'll pay you back tonight. Don=
+'t mention it to anyone yet.

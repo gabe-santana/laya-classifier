@@ -1,0 +1,18 @@
+From: Daniel Park <daniel@parkconsulting.example>
+To: ana.souza@northwind.example
+Subject: Proposal for the Q4 project
+Date: Mon, 28 Sep 2026 10:04:00 +0000
+Message-ID: <proposal-file-share@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=parkconsulting.example; dkim=pass
+ header.d=parkconsulting.example; dmarc=pass
+ header.from=parkconsulting.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Ana, following up on our call. I shared the proposal on our file portal. S=
+ign in with your work email to open it: https://files-parkconsulting.example/=
+view?doc=3Dq4
+
+Daniel

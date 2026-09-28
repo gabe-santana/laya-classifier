@@ -1,0 +1,19 @@
+From: Document Service <sign@esign-notice.example>
+To: ana.souza@northwind.example
+Subject: Ana, a contract is waiting for your signature
+Date: Mon, 28 Sep 2026 09:36:00 +0000
+Message-ID: <docusign-shortlink@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=esign-notice.example; dkim=none header.d=esign-notice.example;
+ dmarc=none header.from=esign-notice.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+You have 1 document to review and sign: 'Employment Agreement Update'. It exp=
+ires in 12 hours.
+
+Review document: https://bit.ly/3xYzSign
+
+You will be asked to sign in with your Northwind email to confirm your identi=
+ty.

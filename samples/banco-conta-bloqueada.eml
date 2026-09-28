@@ -1,0 +1,16 @@
+From: Banco Aurora =?utf-8?q?Seguran=C3=A7a?= <seguranca@banco-aur0ra.example>
+To: ana.souza@northwind.example
+Subject: Sua conta =?utf-8?q?ser=C3=A1?= bloqueada hoje
+Date: Mon, 28 Sep 2026 09:43:00 +0000
+Message-ID: <banco-conta-bloqueada@mail.example>
+Authentication-Results: mx.northwind.example; spf=fail
+ smtp.mailfrom=banco-aur0ra.example; dkim=none header.d=banco-aur0ra.example;
+ dmarc=fail header.from=banco-aur0ra.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Detectamos um acesso suspeito =C3=A0 sua conta. Para evitar o bloqueio, confi=
+rme seus dados em at=C3=A9 2 horas: https://banco-aur0ra.example/confirmar
+
+Banco Aurora

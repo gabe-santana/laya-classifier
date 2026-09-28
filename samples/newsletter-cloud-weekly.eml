@@ -1,0 +1,17 @@
+From: Cloud Weekly <news@cloudweekly.example>
+To: ana.souza@northwind.example
+Subject: This week: serverless cold starts, measured
+Date: Mon, 28 Sep 2026 08:33:00 +0000
+Message-ID: <newsletter-cloud-weekly@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=cloudweekly.example; dkim=pass header.d=cloudweekly.example;
+ dmarc=pass header.from=cloudweekly.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+In this issue: we measured cold starts across three providers, a guide to cos=
+t alerts, and five talks worth your time. Read online at https://cloudweekly.=
+example/issues/212
+
+Unsubscribe: https://cloudweekly.example/u

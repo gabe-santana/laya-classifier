@@ -1,0 +1,29 @@
+From: Northwind IT Support <it-support@n0rthwind.example>
+To: ana.souza@northwind.example
+Subject: Action required: your mailbox is 98% full
+Date: Mon, 28 Sep 2026 09:01:00 +0000
+Message-ID: <mailbox-full-lookalike@mail.example>
+Authentication-Results: mx.northwind.example; spf=fail
+ smtp.mailfrom=n0rthwind.example; dkim=none header.d=n0rthwind.example;
+ dmarc=fail header.from=n0rthwind.example
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5802608269974062650=="
+
+--===============5802608269974062650==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your mailbox has reached 98% of its quota. Sign in within 24 hours to keep re=
+ceiving email: https://portal.northwind.example
+
+--===============5802608269974062650==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your mailbox has reached <b>98%</b> of its quota.</p><p>Sign in within 24 =
+hours to keep receiving email: <a href=3D"http://n0rthwind-login.example/owa/=
+verify">https://portal.northwind.example</a></p><p>Northwind IT Support</p>
+
+--===============5802608269974062650==--

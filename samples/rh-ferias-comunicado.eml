@@ -1,0 +1,19 @@
+From: RH Northwind <rh@northwind.example>
+To: ana.souza@northwind.example
+Subject: =?utf-8?q?Calend=C3=A1rio_de_f=C3=A9rias?= do fim de ano
+Date: Mon, 28 Sep 2026 08:40:00 +0000
+Message-ID: <rh-ferias-comunicado@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=northwind.example; dkim=pass header.d=northwind.example;
+ dmarc=pass header.from=northwind.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Ol=C3=A1, pessoal!
+
+O calend=C3=A1rio de f=C3=A9rias coletivas de dezembro j=C3=A1 est=C3=A1 no p=
+ortal interno, em https://intranet.northwind.example/rh. Quem ainda n=C3=A3o =
+marcou as datas tem at=C3=A9 15 de outubro.
+
+Equipe de RH

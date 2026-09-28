@@ -1,0 +1,16 @@
+From: Carla Mendes <carla@lojasol.example>
+To: ana.souza@northwind.example
+Subject: Segunda via da nota fiscal de agosto
+Date: Mon, 28 Sep 2026 08:47:00 +0000
+Message-ID: <cliente-segunda-via@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=lojasol.example; dkim=pass header.d=lojasol.example; dmarc=pass
+ header.from=lojasol.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Bom dia, Ana. Consegue me mandar a segunda via da nota fiscal de agosto? A no=
+ssa contabilidade n=C3=A3o encontrou o arquivo. Obrigada!
+
+Carla, Loja Sol

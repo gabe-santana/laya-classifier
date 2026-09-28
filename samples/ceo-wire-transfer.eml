@@ -1,0 +1,18 @@
+From: Maria Chen (CEO) <maria.chen.office@freemail.example>
+To: ana.souza@northwind.example
+Subject: Urgent and confidential
+Date: Mon, 28 Sep 2026 09:08:00 +0000
+Message-ID: <ceo-wire-transfer@mail.example>
+Reply-To: m.chen.ceo@freemail.example
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=freemail.example; dkim=pass header.d=freemail.example;
+ dmarc=pass header.from=freemail.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Ana, I'm in a board meeting and can't talk. We need to close an acquisition p=
+ayment of $48,200 before 3 pm today. Please wire it to the account I'll send =
+once you confirm, and keep this between us until it's announced.
+
+Maria

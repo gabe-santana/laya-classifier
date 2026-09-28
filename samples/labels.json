@@ -1,0 +1,146 @@
+[
+  {
+    "file": "it-maintenance-window.eml",
+    "lang": "en",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": ""
+  },
+  {
+    "file": "vendor-invoice-september.eml",
+    "lang": "en",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": ""
+  },
+  {
+    "file": "colleague-meeting-notes.eml",
+    "lang": "en",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": ""
+  },
+  {
+    "file": "password-reset-requested.eml",
+    "lang": "en",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": "A real reset the user requested: it mentions a password, but the link is our own domain and auth passes."
+  },
+  {
+    "file": "newsletter-cloud-weekly.eml",
+    "lang": "en",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": ""
+  },
+  {
+    "file": "rh-ferias-comunicado.eml",
+    "lang": "pt",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": ""
+  },
+  {
+    "file": "cliente-segunda-via.eml",
+    "lang": "pt",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "deliver",
+    "note": ""
+  },
+  {
+    "file": "lista-parceiros-reply-to.eml",
+    "lang": "pt",
+    "phishing": false,
+    "attack_type": "ordinary",
+    "verdict": "warn",
+    "note": "Legitimate, but Reply-To points to another domain (a mailing list): worth a warning, not quarantine."
+  },
+  {
+    "file": "mailbox-full-lookalike.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "credential_theft",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "ceo-wire-transfer.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "payment_fraud",
+    "verdict": "quarantine",
+    "note": "Business email compromise: authentication passes because the attacker owns freemail.example."
+  },
+  {
+    "file": "vendor-bank-change.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "payment_fraud",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "scanned-document-exe.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "malware",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "gift-card-request.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "payment_fraud",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "docusign-shortlink.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "credential_theft",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "banco-conta-bloqueada.eml",
+    "lang": "pt",
+    "phishing": true,
+    "attack_type": "credential_theft",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "diretor-pagamento-urgente.eml",
+    "lang": "pt",
+    "phishing": true,
+    "attack_type": "payment_fraud",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "boleto-atualizado-html.eml",
+    "lang": "pt",
+    "phishing": true,
+    "attack_type": "malware",
+    "verdict": "quarantine",
+    "note": ""
+  },
+  {
+    "file": "proposal-file-share.eml",
+    "lang": "en",
+    "phishing": true,
+    "attack_type": "credential_theft",
+    "verdict": "quarantine",
+    "note": "The hardest kind: authentication passes and no known domain is imitated; only the text gives it away."
+  }
+]

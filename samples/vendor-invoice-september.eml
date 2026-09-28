@@ -1,0 +1,33 @@
+From: Fabrikam Billing <billing@fabrikam.example>
+To: ana.souza@northwind.example
+Subject: Invoice FAB-2291 for September
+Date: Mon, 28 Sep 2026 08:12:00 +0000
+Message-ID: <vendor-invoice-september@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=fabrikam.example; dkim=pass header.d=fabrikam.example;
+ dmarc=pass header.from=fabrikam.example
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0824441230250506371=="
+
+--===============0824441230250506371==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Ana,
+
+Attached is invoice FAB-2291 for the September support contract, due October =
+30 under our usual terms. Payment details are unchanged from previous invoice=
+s.
+
+Thanks,
+Fabrikam Billing
+
+--===============0824441230250506371==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="FAB-2291.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQgc2FtcGxlIGludm9pY2U=
+
+--===============0824441230250506371==--

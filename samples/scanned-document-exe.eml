@@ -1,0 +1,26 @@
+From: Office Scanner <scanner@docs-scan.example>
+To: ana.souza@northwind.example
+Subject: Scanned document from MFP-3 (2 pages)
+Date: Mon, 28 Sep 2026 09:22:00 +0000
+Message-ID: <scanned-document-exe@mail.example>
+Authentication-Results: mx.northwind.example; spf=softfail
+ smtp.mailfrom=docs-scan.example; dkim=none header.d=docs-scan.example;
+ dmarc=none header.from=docs-scan.example
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8266209831286105155=="
+
+--===============8266209831286105155==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+A document was scanned and sent to you. Open the attachment to view it.
+
+--===============8266209831286105155==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Scan_0928.pdf.exe"
+MIME-Version: 1.0
+
+TVogbm90IHJlYWxseSBhbiBleGVjdXRhYmxl
+
+--===============8266209831286105155==--

@@ -1,0 +1,19 @@
+From: Northwind IT <it@northwind.example>
+To: ana.souza@northwind.example
+Subject: Planned maintenance: VPN on Saturday 22:00
+Date: Mon, 28 Sep 2026 08:05:00 +0000
+Message-ID: <it-maintenance-window@mail.example>
+Authentication-Results: mx.northwind.example; spf=pass
+ smtp.mailfrom=northwind.example; dkim=pass header.d=northwind.example;
+ dmarc=pass header.from=northwind.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi everyone,
+
+The VPN gateway will be offline on Saturday from 22:00 to 23:30 while we appl=
+y updates. Nothing is needed from you. Live status: https://status.northwind.=
+example
+
+Northwind IT
